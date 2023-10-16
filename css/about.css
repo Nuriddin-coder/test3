@@ -1,0 +1,118 @@
+.about_main {
+  padding-top: 124px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_main_page {
+  background-repeat: no-repeat;
+  background-image: url("../img/about_main_backimg.svg");
+  background-position: right bottom 0px;
+  padding-bottom: 8rem;
+}
+
+.about_main_title {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.about_main_text {
+  width: 730px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+
+.about_main_text::before {
+  content: "";
+  width: 50px;
+  border: 2px solid #f67e7e;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+/* section directors : */
+
+.directors {
+  background-color: #004047;
+  height: 1002px;
+
+  background-repeat: no-repeat;
+  background-image: url("../img/directors_back_img.svg"),
+    url("../img/directors_back_img.2.png");
+  background-position: 0px 0px, right bottom 0px;
+}
+
+.directors_page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 76px;
+}
+
+.directors_card {
+  width: 350px;
+  height: 253px;
+  background-color: #012f34;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 64px;
+  position: relative;
+
+  /* position: absolute; */
+}
+
+.directors_card::before {
+  content: "";
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url('../img/about_card_plus.svg')
+}
+
+.dirctors_title {
+  padding-top: 140px;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+}
+
+.director_card_img {
+  margin-top: 35px;
+}
+
+.directors_card_name {
+  padding-top: 1rem;
+  color: #79c8c7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.directors_card_position {
+  color: #fff;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.directors_icons_img {
+  background: transparent;
+}

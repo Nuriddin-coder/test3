@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+  background-color: #014e56;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.header_page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.header_logo_img {
+    margin-right: 40px;
+}
+
+.header_link {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+
+.header_link:hover {
+  color: #F67E7E;
+  transition: 0.3s;
+}
+
+.header_btn {
+  padding: 10px 32px;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header_btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s;
+}
+
